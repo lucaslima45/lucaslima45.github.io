@@ -77,5 +77,4 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
-ignoreErrors: ["error-remote-getjson"]  #yml
-ignoreErrors = ["error-remote-getjson"]
+ignoreErrors: ["error-remote-getjson"]  
