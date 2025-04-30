@@ -1,0 +1,59 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: ""
+theme: ["PaperMod"]
+
+taxonomies:
+  tag: "tags"
+
+params:
+  homeInfoParams:
+    Title: Olá, me chamo Lucas! ;)
+    Content: Bem vindo(a) ao meu portfólio, onde eu compartilho minha jornada e aprendizados no mundo da tecnologia. 
+  
+  socialIcons:
+  - name: github
+    url: 'https://github.com/lucaslima45'
+  - name: linkedin
+    url: 'www.linkedin.com/in/lucas-henrique-lima-742654239'
+  - name: email
+    url: 'Email: lucashlima45@gmail.com'
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+    safari_pinned_tab: "/favicon-16x16.png"
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    - identifier: Informações
+      name: Informações
+      url: /Informações/
+      weight: 10
+
+    - identifier: Buscar
+      name: Buscar
+      url: /buscar/
+      weight: 40
+
+# For search: https://github.com/adityatelange/hugo-PaperMod/wiki/Features#search-page
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
