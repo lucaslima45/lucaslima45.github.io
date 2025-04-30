@@ -15,9 +15,9 @@ params:
   - name: github
     url: 'https://github.com/lucaslima45'
   - name: linkedin
-    url: 'www.linkedin.com/in/lucas-henrique-lima-742654239'
+    url: 'https://linkedin.com/in/lucas-henrique-lima-742654239'
   - name: email
-    url: 'Email: lucashlima45@gmail.com'
+    url: 'mailto:lucashlima455@gmail.com'
 
   assets:
     # disableHLJS: true # to disable highlight.js
@@ -58,4 +58,4 @@ outputs:
     - RSS
     - JSON # is necessary
     
-ignoreErrors: ["error-remote-getjson"]  #yml
+ignoreErrors: ["error-remote-getjson"]  
