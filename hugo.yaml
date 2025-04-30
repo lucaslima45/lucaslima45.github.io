@@ -17,7 +17,7 @@ params:
   - name: linkedin
     url: 'https://linkedin.com/in/lucas-henrique-lima-742654239'
   - name: email
-    url: 'mailto:lucashlima455@gmail.com'
+    url: 'mailto:lucashlima45@gmail.com'
 
   assets:
     # disableHLJS: true # to disable highlight.js
